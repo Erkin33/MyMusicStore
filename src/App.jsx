@@ -68,7 +68,7 @@ function App() {
       <div id="first" className="w-full">
         <audio ref={trying} controls src={audios[0]} className="w-full"></audio>
         <div className="flex w-full justify-between items-center mt-[5%]">
-          <button onClick={play}>Назад</button>
+          <button onClick={back}>Назад</button>
           <button onClick={play}>Вперед</button>
         </div>
       </div>
